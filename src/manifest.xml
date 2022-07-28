@@ -1,0 +1,15 @@
+<manifest projecttype="ACCOUNTCUSTOMIZATION">
+  <projectname>BUSS-13533</projectname>
+  <frameworkversion>1.0</frameworkversion>
+  <dependencies>
+    <features>
+      <feature required="true">SERVERSIDESCRIPTING</feature>
+      <feature required="false">CRM</feature>
+    </features>
+    <files>
+      <file>/SuiteScripts/Mimecast/Connect/processPostActions.js</file>
+      <file>/SuiteScripts/Mimecast/Libraries/Library.js</file>
+      <file>/SuiteScripts/Mimecast/Libraries/dlnsLibrary.js</file>
+    </files>
+  </dependencies>
+</manifest>
